@@ -1,23 +1,12 @@
-p {
+nav {
+    background-color: lightskyblue;
+    text-align: center;
+}
+a {
+    padding: 15px;
     color: gray;
+    text-decoration: none;
 }
-
-#main-heading {
-    color: blue;
-}
-
-.intro {
-    color: green;
-}
-
-.box {
-    color: brown;
-}
-
-h1, h2 {
-    color: purple;
-}
-
-.box a {
-    color: red;
+a:hover{
+    color: black;  
 }
