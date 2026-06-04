@@ -1,15 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Selectors Practice</title>
- <link rel="stylesheet" href="style.css">
+    <title>Inspirational Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .card {
+            float: left;
+            width: 22%;
+            margin: 1%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card:hover {
+            background-color: darkgoldenrod;
+        }
+        .card h2 {
+            color: #333;
+        }
+        .card p {
+            color: #666;
+        }
+        .card button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .card button:hover {
+            background-color: #0056b3;
+        }
+        .clearfix {
+            clear: both;
+        }
+        .nextcontent {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #dff0d8;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">Requirements</a>
-    </nav>
+    <div class="card">
+        <h2>Dream Big</h2>
+        <p>Believe in yourself and your dreams.</p>
+        <button>Read More</button>
+    </div>
+    <div class="card">
+        <h2>Work Hard</h2>
+        <p>Success comes from consistent effort.</p>
+        <button>Read More</button>
+    </div>
+    <div class="card">
+        <h2>Stay Positive</h2>
+        <p>A positive mind creates positive results.</p>
+        <button>Read More</button>
+    </div>
+    <div class="card">
+        <h2>Never Give Up</h2>
+        <p>Every failure is a step toward success.</p>
+        <button>Read More</button>
+    </div>
+    <div class="clearfix"></div>
+    <div class="nextcontent">
+        <h3>Next Content Section</h3>
+        <p>This content appears below the cards because of the clear fix.</p>
+    </div>
 </body>
 </html>
